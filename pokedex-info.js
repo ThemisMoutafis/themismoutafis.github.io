@@ -45,9 +45,39 @@ document.addEventListener('DOMContentLoaded', function() {
       "wooper-paldean" : 'wooper-paldea',
       "tauros-paldean": "tauros-paldea-combat-breed",
       "tauros-blaze" : "tauros-paldea-blaze-breed",
-      "tauros-aqua": "tauros-paldea-aqua-breed"
-
-      // Add more corrections as needed
+      "tauros-aqua": "tauros-paldea-aqua-breed",
+      "venusaur-gigantamax": 'venusaur-gmax',
+      "charizard-gigantamax": 'charizard-gmax',
+      "blastoise-gigantamax": 'blastoise-gmax',
+      "butterfree-gigantamax": 'butterfree-gmax',
+      "pikachu-gigantamax": 'pikachu-gmax',
+      "meowth-gigantamax": 'meowth-gmax',
+      "machamp-gigantamax": 'machamp-gmax',
+      "gengar-gigantamax": 'gengar-gmax',
+      "kingler-gigantamax": 'kingler-gmax',
+      "lapras-gigantamax": 'lapras-gmax',
+      "eevee-gigantamax": 'eevee-gmax',
+      "snorlax-gigantamax": 'snorlax-gmax',
+      "garbodor-gigantamax": 'garbodor-gmax',
+      "melmetal-gigantamax": 'melmetal-gmax',
+      "rillaboom-gigantamax": 'rillaboom-gmax',
+      "cinderace-gigantamax": 'cinderace-gmax',
+      "inteleon-gigantamax": 'inteleon-gmax',
+      "corviknight-gigantamax" : 'corviknight-gmax',
+      "orbeetle-gigantamax" : 'orbeetle-gmax',
+      "drednaw-gigantamax" : 'drednaw-gmax',
+      "coalossal-gigantamax" : 'coalossal-gmax',
+      "flapple-gigantamax" : 'flapple-gmax',
+      "appletun-gigantamax": 'appletun-gmax',
+      "sandaconda-gigantamax" : 'sandaconda-gmax',
+      "centiskorch-gigantamax" : 'centiskorch-gmax',
+      "hatterene-gigantamax" : 'hatterene-gmax',
+      "grimmsnarl-gigantamax" : 'grimmsnarl-gmax',
+      "alcremie-gigantamax" : 'alcremie-gmax',
+      "copperajah-gigantamax": 'copperajah-gmax',
+      "duraludon-gigantamax" : 'duraludon-gmax'
+      
+  //     Add more corrections as needed
     };
 
     // Check if userInput needs correction
