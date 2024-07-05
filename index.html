@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="wrapper pt-5">
-       <div class="form d-flex justify-content-center">
+       <div class="border form d-flex justify-content-center">
       <form autocomplete="off" id="textForm">
         <div class="autocomplete">
           <input
@@ -24,12 +24,26 @@
         <input type="submit" class="btn btn-primary"/>
       </form>
     </div> 
-      <div class="image pt-5 d-flex justify-content-center">
+    
+    <div class="d-flex justify-content-space-around">
+      <div class="pokedex-info w-25 justify-content-center" id="pokedex-info">
+        <p>text</p>
+      </div>
+      <div class="image pt-5 d-flex justify-content-center border">
         <img class="img" src="" alt="" srcset="" />
       </div>
+      <div class="w-25 justify-content-center" id="pokemon-stats">
+        <p>text</p>
+      </div>
     </div>
+    <div class="border" id="info-dump">
+      text
+    </div>
+  </div>
 
+    
     <script src="./img-searcher.js"></script>
+    <script src="./pokedex-info.js"></script>
     <script type="module">
         import {pokemonList, autocomplete} from "./dropdown.js"
       autocomplete(document.getElementById("inputText"), pokemonList);
