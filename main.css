@@ -1,0 +1,111 @@
+.container {
+    border-radius: 25px;
+    width: 450px;
+    box-shadow: 0 0 20px rgba(90, 87, 87, 0.18); /* Horizontal-offset Vertical-offset Blur-radius Color */
+}
+
+.border-inline {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container-normal {
+    
+    background-color: rgb(124, 204, 250, 0.5);
+}
+
+.container-hot {
+    background-color: rgba(235, 111, 111, 0.5);
+}
+
+.container-super-hot {
+    background-color: rgb(221, 51, 51, 0.5);
+}
+
+.container-cold {
+    background-color: rgb(75, 75, 248, 0.5);
+}
+
+.container-super-cold {
+    background-color: rgb(24, 24, 175, 0.5);
+}
+::placeholder {
+    color: #ffffff; /* Adjust color as needed */
+    opacity: 1; /* Ensure placeholder is fully visible */
+    font-size: 1.8rem !important;
+}
+
+input.search:focus {
+outline:none !important;
+}
+
+input.search {
+    border: 2px solid white;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100vw;
+        height: 100vh; /* Optional: if you want the container to take full height */
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0;
+    }
+
+    .border-inline {
+        font-size: 1.5rem;
+    }
+
+    .col {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    ::placeholder {
+        font-size: 1.7rem !important;
+    }
+    
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .container {
+        width: 100vw;
+        height: auto;
+        max-height: 100vw; /* Adjusting max-height to handle landscape mode */
+        margin: auto !important;
+        padding: 0 !important;
+        border-radius: 0;
+    }
+    .border-inline {
+        font-size: 2.2rem;
+    }
+
+    .col {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .wind {
+        margin-bottom: 25px !important;
+    }
+    .d-flex {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+    }
+
+    .box {
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .result {
+        margin-bottom: 0 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    ::placeholder {
+        font-size: 1.7rem !important;
+    }
+}
