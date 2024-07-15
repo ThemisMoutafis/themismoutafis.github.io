@@ -1,6 +1,6 @@
 async function fetchData(city) {
   const apiKey = "d56a2972f596cb6046c1c6d7c5a25c52";
-  const cityCords = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
+  const cityCords = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
   try {
     const response = await fetch(cityCords);
 
